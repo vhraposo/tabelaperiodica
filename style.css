@@ -1,0 +1,454 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-color-yellow: #ffff00;
+  --bg-color-orange: #ffa500;
+  --bg-color-lightpink: #fac5b7;
+  --bg-color-lightblue: #acdfec;
+  --bg-color-lightgreen: #9ee5d4;
+  --bg-color-lightpurple: #e5bde5;
+  --bg-color-lightgray: #eeeeee;
+  --bg-color-green: #89e789;
+  --bg-color-lightbrown: #e8d19c;
+  --bg-color-pink: #f5ccda;
+
+  --bg-color-greenonhover: #64ae64;
+  --bg-color-orangehover: #c58715;
+  --bg-color-yellowhover: #c6c61d;
+  --bg-color-lightpinkhover: #d6aca0;
+  --bg-color-lightbluehover: #8cbbc7;
+  --bg-color-lightgreenhover: #77d7c1;
+  --bg-color-lightpurplehover: #be8dbe;
+  --bg-color-lightgrayhover: #ead5d5;
+  --bg-color-lightbrownhover: #a89361;
+  --bg-color-pinkhover: #da819f;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f6f2f2;
+  text-shadow: #260707 0 0px 1px;
+  color: #060606f6;
+  text-align: left;
+  z-index: 1;
+  position: relative;
+  width: 100vw;
+  user-select: none;
+}
+
+table {
+  margin: 0 auto;
+  min-width: 90rem;
+  border-collapse: collapse;
+  box-shadow: 0 0 1px rgba(234, 231, 231, 0.9);
+  color: black;
+  background-color: #0d0c0ccd;
+ 
+}
+
+caption {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+thead {
+  background-color: #050226;
+  color: white;
+  text-align: center;
+}
+th,
+td {
+  padding: 1rem 1.5rem;
+  text-align: left;
+}
+
+td {
+  cursor: pointer;
+}
+
+.first-element {
+  background-color: var(--bg-color-green);
+}
+.first-element:hover {
+  background-color: var(--bg-color-greenonhover);
+}
+
+.first-collumn {
+  background-color: var(--bg-color-orange);
+}
+.first-collumn:hover {
+  background-color: var(--bg-color-orangehover);
+}
+
+.second-collumn {
+  background-color: var(--bg-color-yellow);
+}
+.second-collumn:hover {
+  background-color: var(--bg-color-yellowhover);
+}
+
+.mid-elements {
+  background-color: var(--bg-color-lightpink);
+}
+.mid-elements:hover {
+  background-color: var(--bg-color-lightpinkhover);
+}
+
+.mid-right-elements {
+  background-color: var(--bg-color-lightblue);
+}
+.mid-right-elements:hover {
+  background-color: var(--bg-color-lightbluehover);
+}
+
+.mid-right-top-elements {
+  background-color: var(--bg-color-lightgreen);
+}
+.mid-right-top-elements:hover {
+  background-color: var(--bg-color-lightgreenhover);
+}
+
+.penultimate-collumn {
+  background-color: var(--bg-color-green);
+}
+.penultimate-collumn:hover {
+  background-color: var(--bg-color-greenonhover);
+}
+
+.last-collumn {
+  background-color: var(--bg-color-lightpurple);
+}
+.last-collumn:hover {
+  background-color: var(--bg-color-lightpurplehover);
+}
+
+.bottom-row {
+  background-color: var(--bg-color-lightgray);
+}
+.bottom-row:hover {
+  background-color: var(--bg-color-lightgrayhover);
+}
+
+.nine-row {
+  background-color: var(--bg-color-lightbrown);
+}
+.nine-row:hover {
+  background-color: var(--bg-color-lightbrownhover);
+}
+
+.tenth-row {
+  background-color: var(--bg-color-pink);
+}
+.tenth-row:hover {
+  background-color: var(--bg-color-pinkhover);
+}
+
+.first-element:hover,
+.first-collumn:hover,
+.second-collumn:hover,
+.mid-elements:hover,
+.mid-right-elements:hover,
+.mid-right-top-elements:hover,
+.penultimate-collumn:hover,
+.last-collumn:hover,
+.bottom-row:hover,
+.nine-row:hover,
+.tenth-row:hover {
+  scale: 1.3;
+  border-radius: 1rem;
+}
+
+.unsetelements {
+  background-color: var(--bg-color-lightblue);
+  pointer-events: none;
+}
+
+.infoline {
+  padding-left: 25%;
+  color: white;
+  font-size: 1.6rem;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: #0d0c0c;
+  background-image: url("");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+table {
+  position: relative;
+}
+
+.table {
+  margin: 0 auto;
+  height: fit-content;
+  width: fit-content;
+  position: relative;
+}
+
+.simbolselements {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 9999;
+  top: 21rem;
+  left: 18.5rem;
+}
+.solid,
+.liquid,
+.gas,
+.unknown {
+  font-weight: bold;
+
+  margin-bottom: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 1rem;
+}
+
+.solid span:nth-child(1),
+.liquid span:nth-child(1),
+.gas span:nth-child(1),
+.unknown span:nth-child(1) {
+  background-color: black;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.solid span:nth-child(1):hover {
+  background-color: var(--bg-color-orange);
+  scale: 1.3;
+}
+
+.liquid span:nth-child(1):hover {
+  background-color: var(--bg-color-lightpink);
+  scale: 1.3;
+}
+.gas span:nth-child(1):hover {
+  background-color: var(--bg-color-greenonhover);
+  scale: 1.3;
+}
+.unknown span:nth-child(1):hover {
+  background-color: var(--bg-color-lightgray);
+  scale: 1.3;
+}
+
+.legendelements {
+  z-index: 9999;
+  position: absolute;
+  right: 35%;
+  top: 19%;
+
+  color: rgb(58, 56, 56);
+
+  font-size: 1.4rem;
+  width: 50rem;
+  height: 20rem;
+
+  display: grid;
+  grid-template-columns: 0.9fr 0.9fr 1.9fr 0.8fr 0.8fr 0.8fr 1fr 0.9fr;
+  grid-template-rows: 2fr 3fr 3fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "metal metal metal metal metal Semimetal Não-metal Não-metal"
+    "Metal-alcalino Metal-alcalinoterroso Lantanídeo Metal-de-transição Post-transition_metals Semimetal Não-metais Gás-nobre"
+    "Metal-alcalino Metal-alcalinoterroso Actinídeo Metal-de-transição Post-transition_metals Semimetal Não-metais Gás-nobre";
+}
+
+div .legendelements > div {
+  border: 1px solid rgba(239, 233, 233, 0.265);
+}
+.metal {
+  grid-area: metal;
+  background-color: transparent;
+}
+.metalalcalino {
+  grid-area: Metal-alcalino;
+  background-color: var(--bg-color-orange);
+}
+.metalalcalinoterroso {
+  grid-area: Metal-alcalinoterroso;
+  background-color: var(--bg-color-yellow);
+}
+.Lantanídeo {
+  grid-area: Lantanídeo;
+  background-color: var(--bg-color-lightbrown);
+}
+.Actinídeo {
+  grid-area: Actinídeo;
+  background-color: var(--bg-color-pink);
+}
+.Metaldetransição {
+  grid-area: Metal-de-transição;
+  background-color: var(--bg-color-lightpink);
+}
+.Post-transition_metals {
+  grid-area: Post-transition_metals;
+  background-color: var(--bg-color-lightblue);
+}
+.Semimetal {
+  grid-area: Semimetal;
+  background-color: var(--bg-color-lightgreen);
+}
+.naometal {
+  grid-area: Não-metal;
+  background-color: transparent;
+}
+.naometais {
+  grid-area: Não-metais;
+  background-color: var(--bg-color-green);
+}
+.gasnobre {
+  grid-area: Gás-nobre;
+  background-color: var(--bg-color-lightpurple);
+}
+
+.rotation-text {
+  writing-mode: vertical-rl;
+}
+
+.metal,
+.naometal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.metalalcalino,
+.naometais,
+.metalalcalinoterroso,
+.Metaldetransição,
+.Post-transition_metals,
+.Semimetal,
+.naometal,
+.gasnobre,
+.Post-transition_metals,
+.metalalcalinoterroso {
+  padding-top: 2px;
+  text-align: left;
+  border-radius: 2px;
+}
+
+.Lantanídeo,
+.Actinídeo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+}
+
+.metalalcalino:hover,
+.naometais:hover,
+.metalalcalinoterroso:hover,
+.Metaldetransição:hover,
+.Post-transition_metals:hover,
+.Semimetal:hover,
+.gasnobre:hover,
+.Post-transition_metals:hover,
+.metalalcalinoterroso:hover,
+.Lantanídeo:hover,
+.Actinídeo:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999999;
+  box-shadow: 0 0 50px 1px rgba(255, 255, 255, 0.5);
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 10rem 15rem;
+  
+
+  overflow: none;
+ 
+  background-color: #050226;
+
+  border-radius: 8px;
+  
+  font-size: 3rem;
+  line-height: 3rem;
+  text-align: center;
+
+  gap: 20px;
+ 
+}
+
+#element-name {
+  
+  padding-bottom: 2rem;
+  color: #F1F6F9;
+  text-shadow:  1px 1px 1px rgba(248, 245, 245, 0.42);
+
+}
+
+.modal p {
+  color: #ff6000;
+}
+
+.modal span {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #F1F6F9;
+}
+
+
+.close {
+  color: #aaaaaa;
+  justify-self: flex-end;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+ 
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.blur {
+   filter: grayscale(80%) blur(2.3px);
+   
+  
+}
+
+.table {
+  transition: all 0.5s;
+}

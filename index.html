@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela Periodica</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4027/4027145.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="table">
+      <table border="4">
+        <div class="simbolselements">
+          <div class="solid"><span>C</span> <span>Sólido</span></div>
+          <div class="liquid"><span>Hg</span> <span>Líquido</span></div>
+          <div class="gas"><span>H</span> <span>Gás</span></div>
+          <div class="unknown"><span>Rf</span> <span>Desconhecido</span></div>
+        </div>
+
+        <div class="legendelements">
+          <div class="metal">Metal</div>
+          <div class="metalalcalino">
+            <span class="rotation-text">Metal alcalino</span>
+          </div>
+          <div class="metalalcalinoterroso">
+            <span class="rotation-text">
+              Metal <br />
+              alcalinoterroso
+            </span>
+          </div>
+          <div class="Lantanídeo">Lantanídeo</div>
+          <div class="Actinídeo">Actinídeo</div>
+          <div class="Metaldetransição">
+            <span class="rotation-text"
+              >Metal de <br />
+              transição</span
+            >
+          </div>
+          <div class="Post-transition_metals">
+            <span class="rotation-text">Post-transition_metals</span>
+          </div>
+
+          <div class="Semimetal">
+            <span class="rotation-text">Semimetal</span>
+          </div>
+
+          <div class="naometal">Não metal</div>
+          <div class="naometais">
+            <span span class="rotation-text">Não metais</span>
+          </div>
+          <div class="gasnobre">
+            <span span class="rotation-text">Gás Nobre</span>
+          </div>
+        </div>
+
+        <caption>
+          Tabela Periódica
+        </caption>
+        <thead>
+          <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>10</th>
+            <th>11</th>
+            <th>12</th>
+            <th>13</th>
+            <th>14</th>
+            <th>15</th>
+            <th>16</th>
+            <th>17</th>
+            <th>18</th>
+          </tr>
+        </thead>
+        <tr>
+          <!-- Primeira fila -->
+          <td id="H" class="first-element">
+            1<br />H<br />Hidrogênio<br />1,008
+          </td>
+          <td colspan="16"></td>
+          <td id="He" class="last-collumn">2<br />He<br />Hélio<br />4,0026</td>
+        </tr>
+        <tr>
+          <!-- Segunda fila -->
+          <td id="Li" class="first-collumn">3<br />Li<br />Lítio<br />6,94</td>
+          <td id="Be" class="second-collumn">
+            4<br />Be<br />Berílio<br />9,0122
+          </td>
+          <td colspan="10"></td>
+          <td id="B" class="mid-right-top-elements">
+            5<br />B<br />Boro<br />10,81
+          </td>
+          <td id="C" class="penultimate-collumn">
+            6<br />C<br />Carbono<br />12,01
+          </td>
+          <td id="N" class="penultimate-collumn">
+            7<br />N<br />Nitrogênio<br />14,01
+          </td>
+          <td id="O" class="penultimate-collumn">
+            8<br />O<br />Oxigênio<br />16,00
+          </td>
+          <td id="F" class="penultimate-collumn">
+            9<br />F<br />Flúor<br />19,00
+          </td>
+          <td id="Ne" class="last-collumn">
+            10<br />Ne<br />Neônio<br />20,18
+          </td>
+        </tr>
+        <tr>
+          <!-- Terceira fila -->
+          <td id="Na" class="first-collumn">
+            11<br />Na<br />Sódio<br />22,99
+          </td>
+          <td id="Mg" class="second-collumn">
+            12<br />Mg<br />Magnésio<br />24,31
+          </td>
+          <td colspan="10"></td>
+          <td id="Al" class="mid-right-elements">
+            13<br />Al<br />Alumínio<br />26,98
+          </td>
+          <td id="Si" class="mid-right-top-elements">
+            14<br />Si<br />Silício<br />28,09
+          </td>
+          <td id="P" class="penultimate-collumn">
+            15<br />P<br />Fósforo<br />30,97
+          </td>
+          <td id="S" class="penultimate-collumn">
+            16<br />S<br />Enxofre<br />32,06
+          </td>
+          <td id="Cl" class="penultimate-collumn">
+            17<br />Cl<br />Cloro<br />35,45
+          </td>
+          <td id="Ar" class="last-collumn">
+            18<br />Ar<br />Argônio<br />39,95
+          </td>
+        </tr>
+
+        <tr>
+          <!-- Quarta fila -->
+          <td id="K" class="first-collumn">
+            19<br />K<br />Potássio<br />39,10
+          </td>
+          <td id="Ca" class="second-collumn">
+            20<br />Ca<br />Cálcio<br />40,08
+          </td>
+          <td id="Sc" class="mid-elements">
+            21<br />Sc<br />Escândio<br />44,96
+          </td>
+          <td id="Ti" class="mid-elements">
+            22<br />Ti<br />Titânio<br />47,87
+          </td>
+          <td id="V" class="mid-elements">23<br />V<br />Vanádio<br />50,94</td>
+          <td id="Cr" class="mid-elements">24<br />Cr<br />Cromo<br />52,00</td>
+          <td id="Mn" class="mid-elements">
+            25<br />Mn<br />Manganês<br />54,94
+          </td>
+          <td id="Fe" class="mid-elements">26<br />Fe<br />Ferro<br />55,85</td>
+          <td id="Co" class="mid-elements">
+            27<br />Co<br />Cobalto<br />58,93
+          </td>
+          <td id="Ni" class="mid-elements">
+            28<br />Ni<br />Níquel<br />58,69
+          </td>
+          <td id="Cu" class="mid-elements">29<br />Cu<br />Cobre<br />63,55</td>
+          <td id="Zn" class="mid-elements">30<br />Zn<br />Zinco<br />65,38</td>
+          <td id="Ga" class="mid-right-elements">
+            31<br />Ga<br />Gálio<br />69,72
+          </td>
+          <td id="Ge" class="mid-right-top-elements">
+            32<br />Ge<br />Germanio<br />72,63
+          </td>
+          <td id="As" class="mid-right-top-elements">
+            33<br />As<br />Arsênio<br />74,92
+          </td>
+          <td id="Se" class="penultimate-collumn">
+            34<br />Se<br />Selênio<br />78,96
+          </td>
+          <td id="Br" class="penultimate-collumn">
+            35<br />Br<br />Bromo<br />79,90
+          </td>
+          <td id="Kr" class="last-collumn">
+            36<br />Kr<br />Criptônio<br />83,80
+          </td>
+        </tr>
+
+        <tr>
+          <!-- Quinta fila -->
+          <td id="Rb" class="first-collumn">
+            37<br />Rb<br />Rubídio<br />85,47
+          </td>
+          <td id="Sr" class="second-collumn">
+            38<br />Sr<br />Estrôncio<br />87,62
+          </td>
+          <td id="Y" class="mid-elements">39<br />Y<br />Ítrio<br />88,91</td>
+          <td id="Zr" class="mid-elements">
+            40<br />Zr<br />Zircônio<br />91,22
+          </td>
+          <td id="Nb" class="mid-elements">
+            41<br />Nb<br />Nióbio<br />92,91
+          </td>
+          <td id="Mo" class="mid-elements">
+            42<br />Mo<br />Molibdênio<br />95,94
+          </td>
+          <td id="Tc" class="mid-elements">43<br />Tc<br />Tecnécio<br />98</td>
+          <td id="Ru" class="mid-elements">
+            44<br />Ru<br />Rutênio<br />101,07
+          </td>
+          <td id="Rh" class="mid-elements">
+            45<br />Rh<br />Ródio<br />102,91
+          </td>
+          <td id="Pd" class="mid-elements">
+            46<br />Pd<br />Paládio<br />106,42
+          </td>
+          <td id="Ag" class="mid-elements">
+            47<br />Ag<br />Prata<br />107,87
+          </td>
+          <td id="Cd" class="mid-elements">
+            48<br />Cd<br />Cádmio<br />112,41
+          </td>
+          <td id="In" class="mid-right-elements">
+            49<br />In<br />Índio<br />114,82
+          </td>
+          <td id="Sn" class="mid-right-top-elements">
+            50<br />Sn<br />Estanho<br />118,71
+          </td>
+          <td id="Sb" class="mid-right-top-elements">
+            51<br />Sb<br />Antimônio<br />121,76
+          </td>
+          <td id="Te" class="penultimate-collumn">
+            52<br />Te<br />Telúrio<br />127,60
+          </td>
+          <td id="I" class="penultimate-collumn">
+            53<br />I<br />Iodo<br />126,90
+          </td>
+          <td id="Xe" class="last-collumn">
+            54<br />Xe<br />Xenônio<br />131,29
+          </td>
+        </tr>
+
+        <tr>
+          <!-- Sexta fila -->
+          <td class="first-collumn" id="Cs">
+            55<br />Cs<br />Césio<br />132,91
+          </td>
+          <td class="second-collumn" id="Ba">
+            56<br />Ba<br />Bário<br />137,33
+          </td>
+          <td class="unsetelements" id="unset">57-71</td>
+          <td class="mid-elements" id="Hf">
+            72<br />Hf<br />Háfnio<br />178,49
+          </td>
+          <td class="mid-elements" id="Ta">
+            73<br />Ta<br />Tântalo<br />180,95
+          </td>
+          <td class="mid-elements" id="W">
+            74<br />W<br />Tungstênio<br />183,84
+          </td>
+          <td class="mid-elements" id="Re">
+            75<br />Re<br />Rênio<br />186,21
+          </td>
+          <td class="mid-elements" id="Os">
+            76<br />Os<br />Osmio<br />190,23
+          </td>
+          <td class="mid-elements" id="Ir">
+            77<br />Ir<br />Irídio<br />192,22
+          </td>
+          <td class="mid-elements" id="Pt">
+            78<br />Pt<br />Platina<br />195,08
+          </td>
+          <td class="mid-elements" id="Au">79<br />Au<br />Ouro<br />196,97</td>
+          <td class="mid-elements" id="Hg">
+            80<br />Hg<br />Mercúrio<br />200,59
+          </td>
+          <td class="mid-right-elements" id="Tl">
+            81<br />Tl<br />Tálio<br />204,38
+          </td>
+          <td class="mid-right-top-elements" id="Pb">
+            82<br />Pb<br />Chumbo<br />207,2
+          </td>
+          <td class="mid-right-top-elements" id="Bi">
+            83<br />Bi<br />Bismuto<br />208,98
+          </td>
+          <td class="penultimate-collumn" id="Po">
+            84<br />Po<br />Polônio<br />209
+          </td>
+          <td class="penultimate-collumn" id="At">
+            85<br />At<br />Ástato<br />210
+          </td>
+          <td class="last-collumn" id="Rn">86<br />Rn<br />Rádon<br />222</td>
+        </tr>
+
+        <tr>
+          <!-- Sétima fila -->
+          <td id="Fr" class="first-collumn">
+            87<br />Fr<br />Frâncio <br />
+            (223)
+          </td>
+          <td id="Ra" class="second-collumn">
+            88<br />Ra<br />Rádio <br />
+            (226)
+          </td>
+          <td class="unsetelements">89-103</td>
+          <td id="Rf" class="mid-elements">
+            104<br />Rf<br />Rutherfórdio <br />
+            (267)
+          </td>
+          <td id="Db" class="mid-elements">
+            105<br />Db<br />Dúbnio <br />(268)
+          </td>
+          <td id="Sg" class="mid-elements">
+            106<br />Sg<br />Seabórgio <br />
+            (269)
+          </td>
+          <td id="Bh" class="mid-elements">
+            107<br />Bh<br />Bohrium <br />
+            (270)
+          </td>
+          <td id="Hs" class="mid-elements">
+            108<br />Hs<br />Hássio <br />
+            (271)
+          </td>
+          <td id="Mt" class="bottom-row">
+            109<br />Mt<br />Meitnério <br />
+            (278)
+          </td>
+          <td id="Ds" class="bottom-row">
+            110<br />Ds<br />Darmstádio <br />
+            (281)
+          </td>
+          <td id="Rg" class="bottom-row">
+            111<br />Rg<br />Röntgenio <br />
+            (282)
+          </td>
+          <td id="Cn" class="bottom-row">
+            112<br />Cn<br />Copernício <br />
+            (285)
+          </td>
+          <td id="Nh" class="bottom-row">
+            113<br />Nh<br />Nihônio <br />
+            (286)
+          </td>
+          <td id="Fl" class="bottom-row">
+            114<br />Fl<br />Fleróvio <br />
+            (289)
+          </td>
+          <td id="Mc" class="bottom-row">
+            115<br />Mc<br />Moscóvio <br />
+            (290)
+          </td>
+          <td id="Lv" class="bottom-row">
+            116<br />Lv<br />Livermório <br />
+            (293)
+          </td>
+          <td id="Ts" class="bottom-row">
+            117<br />Ts<br />Tennessino <br />
+            (294)
+          </td>
+          <td id="Og" class="bottom-row">
+            118<br />Og<br />Oganessônio <br />
+            (294)
+          </td>
+        </tr>
+
+        <tr>
+          <!-- Oitava fila -->
+          <td class="infoline" colspan="19">
+            Para os elementos sem isótopos estáveis, o número de massa do
+            isótopo com a meia-vida mais longa está entre parênteses.
+          </td>
+        </tr>
+
+        <tr>
+          <!-- Nona fila  -->
+          <td colspan="2"></td>
+          <td class="unsetelements">6</td>
+          <td id="La" class="nine-row">
+            57<br />La<br />Lantânio <br />
+            138,91
+          </td>
+          <td id="Ce" class="nine-row">
+            58<br />Ce<br />Cério <br />
+            140,12
+          </td>
+          <td id="Pr" class="nine-row">
+            59<br />Pr<br />Praseodímio <br />
+            140,91
+          </td>
+          <td id="Nd" class="nine-row">
+            60<br />Nd<br />Neodímio <br />
+            144,24
+          </td>
+          <td id="Pm" class="nine-row">
+            61<br />Pm<br />Promécio <br />
+            (145)
+          </td>
+          <td id="Sm" class="nine-row">
+            62<br />Sm<br />Samário <br />
+            150,36
+          </td>
+          <td id="Eu" class="nine-row">
+            63<br />Eu<br />Európio <br />
+            151,96
+          </td>
+          <td id="Gd" class="nine-row">
+            64<br />Gd<br />Gadolínio <br />
+            157,25
+          </td>
+          <td id="Tb" class="nine-row">
+            65<br />Tb<br />Térbio <br />
+            158,93
+          </td>
+          <td id="Dy" class="nine-row">
+            66<br />Dy<br />Disprósio <br />
+            162,50
+          </td>
+          <td id="Ho" class="nine-row">
+            67<br />Ho<br />Hólmio <br />
+            164,93
+          </td>
+          <td id="Er" class="nine-row">
+            68<br />Er<br />Érbio <br />
+            167,26
+          </td>
+          <td id="Tm" class="nine-row">
+            69<br />Tm<br />Túlio <br />
+            168,93
+          </td>
+          <td id="Yb" class="nine-row">
+            70<br />Yb<br />Itérbio <br />
+            173,05
+          </td>
+          <td id="Lu" class="nine-row">
+            71<br />Lu<br />Lutécio <br />
+            174,97
+          </td>
+        </tr>
+
+        <tr>
+          <!-- Décima fila  -->
+          <td colspan="2"></td>
+          <td class="unsetelements">7</td>
+          <td id="Ac" class="tenth-row">
+            89<br />Ac<br />Actínio <br />
+            (227)
+          </td>
+          <td id="Th" class="tenth-row">
+            90<br />Th<br />Tório <br />
+            (232,04)
+          </td>
+          <td id="Pa" class="tenth-row">
+            91<br />Pa<br />Protactínio <br />
+            (231,04)
+          </td>
+          <td id="U" class="tenth-row">
+            92<br />U<br />Urânio <br />
+            (238,03)
+          </td>
+          <td id="Np" class="tenth-row">
+            93<br />Np<br />Neptúnio <br />
+            (237)
+          </td>
+          <td id="Pu" class="tenth-row">
+            94<br />Pu<br />Plutónio <br />
+            (244)
+          </td>
+          <td id="Am" class="tenth-row">
+            95<br />Am<br />Amerício <br />
+            (243)
+          </td>
+          <td id="Cm" class="tenth-row">
+            96<br />Cm<br />Cúrio <br />
+            (247)
+          </td>
+          <td id="Bk" class="tenth-row">
+            97<br />Bk<br />Berquélio <br />
+            (247)
+          </td>
+          <td id="Cf" class="tenth-row">
+            98<br />Cf<br />Califórnio <br />
+            (251)
+          </td>
+          <td id="Es" class="tenth-row">
+            99<br />Es<br />Einstênio <br />
+            (252)
+          </td>
+          <td id="Fm" class="tenth-row">
+            100<br />Fm<br />Férmio <br />
+            (257)
+          </td>
+          <td id="Md" class="tenth-row">
+            101<br />Md<br />Mendelévio <br />
+            (258)
+          </td>
+          <td id="No" class="tenth-row">
+            102<br />No<br />Nobélio <br />
+            (259)
+          </td>
+          <td id="Lr" class="tenth-row">
+            103<br />Lr<br />Laurêncio <br />
+            (266)
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="modal" class="modal">
+      <span class="close"><img src="./close.svg" alt="" /> </span>
+      <h2 id="element-name"></h2>
+      <p><strong>Símbolo:</strong> <span id="element-symbol"></span></p>
+      <p><strong>Número atômico:</strong> <span id="atomic-number"></span></p>
+      <p><strong>Massa atômica:</strong> <span id="atomic-mass"></span></p>
+      <p><strong>Categoria:</strong> <span id="groupBlock"></span></p>
+      <p><strong>Ano descoberto:</strong> <span id="yearDiscovered"></span></p>
+    </div>
+
+    <div id="particles-js"></div>
+
+    <!-- scripts -->
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js "></script>
+    <script src="./js/modal.js" type="module"></script>
+  </body>
+</html>

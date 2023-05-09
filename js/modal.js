@@ -1,18 +1,18 @@
 import { elementosQuimicos } from "./elements.js"
 
-// recupera todas as células da tabela
+// selecionando todos os dados da tabela 
 const cells = document.querySelectorAll("td")
 
-// adiciona um evento de clique a cada célula
+// adicionando clique a cada celulad em especifico 
 cells.forEach((cell) => {
   cell.addEventListener("click", () => {
-    // recupera o id da célula clicada
+    // atribuindo o id a cada celula
     const elementId = cell.id
 
-    // busca as informações do elemento com o id selecionado
+    // indo atras do elemento selecionado de acordo com o id do elemento
     const element = elementosQuimicos[elementId]
 
-    // atualiza o conteúdo do modal com as informações do elemento
+    // coloca as info no modal de acordo com o que foi selecionado
     const modal = document.getElementById("modal")
     const elementName = document.getElementById("element-name")
     elementName.textContent = element.name
@@ -32,7 +32,7 @@ cells.forEach((cell) => {
     const yearDiscovered = document.getElementById("yearDiscovered")
     yearDiscovered.textContent = element.yearDiscovered
 
-    // exibe o modal e adiciona a classe de blur na tabela
+    // altera o modal para display grid 
     modal.style.display = "grid"
     const table = document.querySelector(".table")
   
@@ -40,7 +40,7 @@ cells.forEach((cell) => {
   })
 })
 
-// adiciona um evento de clique ao botão de fechar o modal
+// fecha o modal 
 const closeButton = document.querySelector(".close")
 closeButton.addEventListener("click", () => {
   const modal = document.getElementById("modal")

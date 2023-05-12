@@ -28,11 +28,13 @@
 - O background animado é criado com a biblioteca particles.js.
 
 ## Screenshots
-![Tabela Periódica](![tb01](https://github.com/vhraposo/tabelaperiodica/assets/69219137/2d45763f-6675-482d-bfc3-50bcf81cd44e)
+![Tabela Periódica](![tb01](![tb01](https://github.com/vhraposo/tabelaperiodica/assets/69219137/b65e19af-f189-4771-a7d6-2141ab61e9ed)
+)
 )
 
-![Modal do Hidrogênio](![tb02](https://github.com/vhraposo/tabelaperiodica/assets/69219137/a120de3c-f498-4711-90e7-f033ba27e84b)
+![Modal do Hidrogênio](![tb02](![tb02](https://github.com/vhraposo/tabelaperiodica/assets/69219137/496a9c10-64fe-4cb4-97a0-d76007e415ad)
 )
+
 
 ## Contribuição
 Contribuições são sempre bem-vindas! Sinta-se livre para abrir uma issue ou pull request caso queira melhorar o código ou adicionar novas funcionalidades.

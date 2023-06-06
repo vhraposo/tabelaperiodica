@@ -29,11 +29,11 @@
 
 ## Screenshots
 ![Tabela Periódica](./tb01.PNG)
-)
-)
+
+
 
 ![Modal do Hidrogênio](./tb02.PNG)
-)
+
 
 
 ## Contribuição
